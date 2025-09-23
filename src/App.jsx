@@ -1,17 +1,22 @@
 import "./App.css";
-import ClassState from "./components/ClassState";
-import FunctionState from "./components/FunctionState";
-import Todo from "./components/Todo";
+// import ClassCount from "./components/ClassCount";
+// import FunctionCount from "./components/FunctionCount";
+// import ClassState from "./components/ClassState";
+// import FunctionState from "./components/FunctionState";
+// import Todo from "./components/Todo";
 
 function App() {
 	return (
 		<div className="flex flex-col gap-8">
 			<h1>useStateHooks</h1>
-			<ClassState />
+			{/* <ClassState />
 			<hr />
 			<FunctionState />
+			<hr /> */}
+      		{/* <Todo/> */}
+			{/* <ClassCount />
 			<hr />
-      <Todo/>
+			<FunctionCount /> */}
 		</div>
 	);
 }
