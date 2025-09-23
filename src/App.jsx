@@ -1,24 +1,16 @@
-import "./App.css";
-// import ClassCount from "./components/ClassCount";
-// import FunctionCount from "./components/FunctionCount";
-// import ClassState from "./components/ClassState";
-// import FunctionState from "./components/FunctionState";
-// import Todo from "./components/Todo";
+import { Component } from "react";
+import Profile from "./components/Profile";
 
-function App() {
-	return (
-		<div className="flex flex-col gap-8">
-			<h1>useStateHooks</h1>
-			{/* <ClassState />
-			<hr />
-			<FunctionState />
-			<hr /> */}
-      		{/* <Todo/> */}
-			{/* <ClassCount />
-			<hr />
-			<FunctionCount /> */}
-		</div>
-	);
+class App extends Component {
+	state = {
+		user: {
+			name: "Lisa",
+			age: 8,
+		},
+	};
+	render() {
+		return <Profile />;
+	}
 }
 
 export default App;
