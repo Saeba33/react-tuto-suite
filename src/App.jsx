@@ -1,23 +1,11 @@
-import { Component } from "react";
-import Profile from "./components/Profile";
-import { ColorContext, UserContext } from "./contexts/MyContext";
+import Count from "./components/Count";
 
-class App extends Component {
-	state = {
-		user: {
-			name: "Lisa",
-			age: 8,
-		},
-	};
-	render() {
-		return (
-			<UserContext.Provider value={this.state.user}>
-				<ColorContext.Provider value={"red"}>
-					<Profile />
-				</ColorContext.Provider>
-			</UserContext.Provider>
-		);
-	}
-}
+const App = () => {
+	return (
+		<div>
+			<Count />
+		</div>
+	);
+};
 
 export default App;
