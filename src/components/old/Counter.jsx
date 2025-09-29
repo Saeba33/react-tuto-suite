@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "../ProgressBar";
 
 const Counter = ({
 	progressState,

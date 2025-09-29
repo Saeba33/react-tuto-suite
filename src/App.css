@@ -6,3 +6,19 @@
   padding: 2rem;
   text-align: center;
 }
+
+#table {
+  margin: 15px auto 0 auto;
+  width: 90%;
+}
+
+#table th {
+  text-align: center;
+  background-color: lightcoral;
+  color: #fff;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
